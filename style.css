@@ -46,6 +46,11 @@ body,html{
     margin: 2px;
 }
 
+.current{
+    
+    background-color: rgb(208, 72, 72);
+}
+
 .topnav a:hover{
     background-color: rgb(208, 72, 72);
     color: rgb(253, 231, 103);
@@ -70,16 +75,16 @@ body,html{
     color: white;
 }
 
-.headerimg img{
+img{
     border: 5px dotted white;
 }
 
 .content{
     display: flex;
-    justify-content: space-evenly;
 }
 
 .boxes{
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-self: center;
@@ -87,22 +92,26 @@ body,html{
     margin: 20px;
 }
 
-.boxes div{
-    width: 40%;
+.boxes div, .box3{
     padding: 10px;
     margin: 20px;
+}
+
+.boxes div{
+    width: 80%;
 }
 
 .box1, .box2{
     border: 4px dotted yellow;
     background-color: rgb(243, 185, 95);
 }
+.box3{
+    justify-self: center;
+    align-self: center;
+}
 
 .box3 img{
     height: 300px;
-    padding: 40px;
-    padding-right: 300px;
-    padding-top: 150px;
 }
 
 .footer{
@@ -114,6 +123,21 @@ body,html{
     padding: 5px;
     margin: 5px 0px 0px 0px;
 }
+
+
+.products{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 15% 5% 10% 20% 30%;
+}
+
+.products h1{
+    color: aliceblue;
+    grid-row: 1;
+    grid-column: 1/4;
+}
+
 
 .other_footer{
     position: fixed;
