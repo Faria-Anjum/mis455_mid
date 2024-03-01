@@ -7,9 +7,11 @@ body,html{
 
 .header{
     background-color: rgb(253, 231, 103);
-    padding: 20px 10px;
+    padding: 15px 10px;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
 }
 
 .logo{
@@ -45,19 +47,38 @@ body,html{
     justify-items: center;
     align-items: center;
     color: whitesmoke;
+    text-align: center;
 }
 
 .headerimg{
     margin: auto;
 }
 
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.content div{
+    width: 40%;
+    padding: 10px;
+    margin: 20px;
+}
+
+.box1, .box3{
+    border: 4px dotted yellow;
+    background-color: rgb(243, 185, 95);
+    color: rgb(176, 50, 0);
+}
+
 .footer{
-    position: fixed;
+    position: sticky;
     width: 100%;
     text-align: center;
     bottom: 0;
     background-color: rgb(253, 231, 103);
     color: darkblue;
     padding: 5px;
-    margin: 5px 0px;
+    margin: 5px 0px 0px 0px;
 }
