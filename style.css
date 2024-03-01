@@ -3,19 +3,30 @@ body,html{
     margin: 0;
     padding: 0;
     height: 100%;
+    color: rgb(194, 43, 43);
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .header{
     background-color: rgb(253, 231, 103);
-    padding: 15px 10px;
+    padding: 0px 10px;
     display: flex;
     justify-content: space-between;
     position: sticky;
     top: 0;
 }
 
+.logo, h1, h2{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(130, 67, 0);
+}
+
 .logo{
-    color: darkblue;
+    font-size: 2.5em;
 }
 
 .topnav{
@@ -25,33 +36,43 @@ body,html{
 
 .topnav a{
     background-color: rgb(243, 185, 95);
+    color: rgb(130, 67, 0);
     border: 3px dotted rgb(208, 72, 72);
     border-radius: 20px;
     padding: 20px;
     text-decoration: none;
     font-size: 20px;
-    color: darkblue;
     text-align: center;
     margin: 2px;
 }
 
 .topnav a:hover{
     background-color: rgb(208, 72, 72);
-    color: white;
+    color: rgb(253, 231, 103);
     border-color: rgb(243, 185, 95);
 }
+
+
 
 .container{
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    color: whitesmoke;
     text-align: center;
 }
 
 .headerimg{
     margin: auto;
+    color: ;
+}
+
+.headerimg h1{
+    color: white;
+}
+
+.headerimg img{
+    border: 5px dotted white;
 }
 
 .content{
@@ -69,7 +90,6 @@ body,html{
 .box1, .box3{
     border: 4px dotted yellow;
     background-color: rgb(243, 185, 95);
-    color: rgb(176, 50, 0);
 }
 
 .footer{
@@ -78,7 +98,6 @@ body,html{
     text-align: center;
     bottom: 0;
     background-color: rgb(253, 231, 103);
-    color: darkblue;
     padding: 5px;
     margin: 5px 0px 0px 0px;
 }
