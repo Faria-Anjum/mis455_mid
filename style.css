@@ -76,19 +76,33 @@ body,html{
 
 .content{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
     margin: 20px;
 }
 
-.content div{
+.boxes div{
     width: 40%;
     padding: 10px;
     margin: 20px;
 }
 
-.box1, .box3{
+.box1, .box2{
     border: 4px dotted yellow;
     background-color: rgb(243, 185, 95);
+}
+
+.box3 img{
+    height: 300px;
+    padding: 40px;
+    padding-right: 300px;
+    padding-top: 150px;
 }
 
 .footer{
