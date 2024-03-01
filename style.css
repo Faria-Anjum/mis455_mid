@@ -129,13 +129,30 @@ img{
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 15% 5% 10% 20% 30%;
+    grid-template-rows: 15% 5% 10% 20% 30% 20%;
 }
 
 .products h1{
     color: aliceblue;
     grid-row: 1;
     grid-column: 1/4;
+}
+
+.items img{
+    height: 300px;
+}
+
+.items h2{
+    color: aliceblue;
+}
+
+.items p{
+    color: aliceblue;
+}
+
+.more{
+    grid-column: 1/4;
+    grid-row: 7;
 }
 
 
