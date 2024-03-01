@@ -4,3 +4,60 @@ body,html{
     padding: 0;
     height: 100%;
 }
+
+.header{
+    background-color: rgb(253, 231, 103);
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    color: darkblue;
+}
+
+.topnav{
+    display: flex;
+    align-items: center;
+}
+
+.topnav a{
+    background-color: rgb(243, 185, 95);
+    border: 3px dotted rgb(208, 72, 72);
+    border-radius: 20px;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: darkblue;
+    text-align: center;
+    margin: 2px;
+}
+
+.topnav a:hover{
+    background-color: rgb(208, 72, 72);
+    color: white;
+    border-color: rgb(243, 185, 95);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.headerimg{
+    margin: auto;
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    background-color: rgb(253, 231, 103);
+    color: darkblue;
+    padding: 5px;
+    margin: 5px 0px;
+}
